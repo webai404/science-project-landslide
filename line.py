@@ -18,8 +18,8 @@ def lineNotifyMessage(token, arg):
     return r.status_code
 
 def send(arg):
-    lineNotifyMessage('6HGqSkizZ7X99IGHcSxprjEpNIInm53TT0Fe6jm67N1', arg)
+    lineNotifyMessage('<LINE Notify Key>', arg)
 if __name__ == "__main__":
-  token = '6HGqSkizZ7X99IGHcSxprjEpNIInm53TT0Fe6jm67N1'
+  token = '<LINE Notify Key>'
   message = '基本功能測試'
   lineNotifyMessage(token, message)
